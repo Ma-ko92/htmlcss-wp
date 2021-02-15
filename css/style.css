@@ -17,22 +17,21 @@ img{
 
 /* logo */
 .logo{
-    width:100px;
+    width:150px;
 }
 /* logo end */
+
 /* nav. menu */
 .nav-bar{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .menu{
     list-style-type: none;
-    
 }
 .menu li{
     display: inline-block;
-    
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .menu li a{
     text-decoration: none;
@@ -51,12 +50,12 @@ img{
 .layover{
     width: 100%;
     height: 100%;
-    color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0,0.2);
     position: absolute;
     top:0;
     left:0;
 }
-.banner img{
+.object-fit{
     object-fit: cover;
     width: 100%;
     height:100%;
@@ -66,8 +65,76 @@ img{
     position: absolute;
     bottom: 50px;
     left: 40px;
+    color: white;
+}
+.banner-text h1{
+    font-size: 30px;
+}
+.banner-text h3{
     font-size: 15px;
-    /* color: white; */
 }
 /* banner end */
 /* HEADER END */
+
+/* MAIN */
+
+/* title and subtitle */
+.title{
+    margin: 25px 0;
+}
+.title h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+.title p{
+    color:#a0a0a0 ;
+}
+/* title and subtitle end */
+
+/* column contents */
+
+.column::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+.col-left,
+.col-right{
+    float: left;
+    width:20%;
+}
+.col-middle{
+    float: left;
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.col-img{
+    overflow: hidden;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.col-title{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.col-text{
+    color: #a0a0a0;
+}
+/* column contents end */
+
+/* FOOTER */
+.footer-text{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.mark{
+    font-size: 25px;
+    color: red;
+}
+/* FOOTER END */
+/* MAIN END*/
