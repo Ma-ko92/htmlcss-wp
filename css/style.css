@@ -3,4 +3,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+/* common */
+.wrapper{
+    width:1024px;
+    margin:auto;
+}
+img{
+    width:100%;
+}
+/* HEADER */
+
+/* logo */
+.logo{
+    width:100px;
+}
+/* logo end */
+/* nav. menu */
+.nav-bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu{
+    list-style-type: none;
+    
+}
+.menu li{
+    display: inline-block;
+    
+    margin-right: 5px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+/* nav. menu end */
+
+/* banner */
+.banner{
+    height: 500px;
+}
+/* banner end */
+/* HEADER END */
